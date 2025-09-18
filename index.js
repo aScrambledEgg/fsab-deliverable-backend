@@ -18,7 +18,6 @@ app.use(
 )
 app.use(bodyParser.urlencoded({ extended: false }))
 
-// Create a route at http://localhost:8080/testRoute. You can try it with your browser!
 app.get("/", async (req, res) => {
 	res.send("Hello World!");
 });
